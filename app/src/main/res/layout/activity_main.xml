@@ -27,7 +27,8 @@
                 android:layout_height="40dp"
                 android:layout_gravity="end|center_vertical"
                 android:src="@android:drawable/ic_menu_sort_by_size"
-                app:tint="@color/white" />
+                app:tint="@color/white"
+                android:contentDescription="@string/todo" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -59,7 +60,7 @@
             android:background="#bea46f"
             android:textSize="20sp"
             android:textStyle="bold"
-            android:text="Music" />
+            android:text="@string/music" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/biography_button"
@@ -69,10 +70,10 @@
             app:layout_constraintStart_toStartOf="parent"
             android:layout_marginStart="30dp"
             android:layout_marginBottom="225dp"
-            android:text="Biography"
+            android:text="@string/biography"
             android:textStyle="bold"
             android:background="#bea46f"
-            android:textSize="11sp"/>
+            android:textSize="18sp"/>
 
 
 
